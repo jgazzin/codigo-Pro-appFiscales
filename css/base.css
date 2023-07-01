@@ -1,0 +1,106 @@
+:root {
+    --color-principal: #f5ac0d;
+    --color-secundario: #f3f691;
+    --color-acento: #f14544;
+    --degrade: linear-gradient(180deg, #f7d109 0%, #f14544 80%);
+    --color-titulos: #424143;
+    --color-textos: #49484b;
+  }
+  
+  @font-face {
+    font-family: "Archivo-Back";
+    src: url("fonts/Gotham-Black.otf") format("opentype");
+    font-weight: bolder;
+  }
+  
+  @font-face {
+    font-family: "Archivo-Bold";
+    src: url("fonts/Gotham-Bold.otf") format("opentype");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "gotham-round-bold";
+    src: url("fonts/GothamRounded-Bold.otf") format("opentype");
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: "gotham-round-regular";
+    src: url("fonts/GothamRounded-Medium.otf") format("opentype");
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "archivo-light";
+    src: url("fonts/Gotham-Light.otf") format("opentype");
+    font-weight: normal;
+  }
+  
+  html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 16px;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 20px;
+    font-family: "Archivo-Back", Arial, Helvetica, sans-serif;
+    color: var(--color-titulos);
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-family: "Archivo-Bold", Arial, Helvetica, sans-serif;
+    color: var(--color-titulos);
+    text-transform: uppercase;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-family: "gotham-round-bold";
+    color: var(--color-titulos);
+  }
+  
+  .p-large {
+    font-size: 16px;
+    font-family: "gotham-round-bold";
+    color: var(--color-textos);
+  }
+  
+  .p-regular {
+    font-size: 14px;
+    font-family: "gotham-round-regular";
+    color: var(--color-textos);
+  }
+  
+  .label-btn {
+    font-family: "archivo-light";
+    text-transform: uppercase;
+    color: var(--color-secundario);
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .centrado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    text-align: center;
+  }

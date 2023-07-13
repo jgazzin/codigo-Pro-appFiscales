@@ -56,33 +56,33 @@
   }
   
   h1 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Archivo-Back", Arial, Helvetica, sans-serif;
     color: var(--color-titulos);
     text-transform: uppercase;
   }
   
   h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Archivo-Bold", Arial, Helvetica, sans-serif;
     color: var(--color-titulos);
     text-transform: uppercase;
   }
   
   h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: "gotham-round-bold";
     color: var(--color-titulos);
   }
   
   .p-large {
-    font-size: 16px;
+    font-size: 18px;
     font-family: "gotham-round-bold";
     color: var(--color-textos);
   }
   
   .p-regular {
-    font-size: 14px;
+    font-size: 16px;
     font-family: "gotham-round-regular";
     color: var(--color-textos);
   }
@@ -95,6 +95,11 @@
   
   .row {
     display: flex;
+  }
+
+  .gap {
+    gap: 10px;
+    margin: 5px 0;
   }
   
   .centrado {

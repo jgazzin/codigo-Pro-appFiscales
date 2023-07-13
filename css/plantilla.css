@@ -1,4 +1,19 @@
 @import url(./componentes/header.css);
 @import url(./componentes/tab-bar.css);
-  
-  
+@import url(./componentes/boton.css);
+
+.contenedor__home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 20px 68px; 
+}  
+
+.items h3 {
+    margin: 15px 0;
+}
+.items .item--accion {
+    margin-left: 4px;
+    margin-right: 4px;
+}

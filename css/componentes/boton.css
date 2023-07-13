@@ -1,0 +1,15 @@
+.boton__large {
+  width: 212px;
+  height: 54px;
+  flex-shrink: 0;
+
+  border: none;
+  border-radius: 26px;
+  background: var(
+    --degrade,
+    linear-gradient(180deg, #f7d109 0%, #f14544 79.17%)
+  );
+
+  /* sombra */
+  box-shadow: 0px 4px 5px 0px #f3f691;
+}

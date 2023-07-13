@@ -65,7 +65,7 @@
   h2 {
     font-size: 20px;
     font-family: "Archivo-Bold", Arial, Helvetica, sans-serif;
-    color: var(--color-titulos);
+    color: var(--color-textos);
     text-transform: uppercase;
   }
   
@@ -73,18 +73,24 @@
     font-size: 20px;
     font-family: "gotham-round-bold";
     color: var(--color-titulos);
+    text-align: left;
+    padding: 8px 0;
   }
   
   .p-large {
     font-size: 18px;
     font-family: "gotham-round-bold";
     color: var(--color-textos);
+
+    text-align: left;
   }
   
   .p-regular {
     font-size: 16px;
     font-family: "gotham-round-regular";
     color: var(--color-textos);
+
+    text-align: left;
   }
 
   button {
@@ -110,6 +116,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-  
     text-align: center;
   }
+
+  .c--h {
+    justify-content: center;
+  }
+
+ 

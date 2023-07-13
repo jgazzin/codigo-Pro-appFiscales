@@ -1,21 +1,85 @@
 @import url(./componentes/header.css);
 @import url(./componentes/tab-bar.css);
 @import url(./componentes/boton.css);
+@import url(./componentes/tab-float.css);
 
-.contenedor__home{
-    height: calc(100vh - 200px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 68px;
-    padding-bottom: 30px;
-} 
+.contenedor__home {
+  height: calc(100vh - 200px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 68px;
+  padding-bottom: 30px;
+  max-width: 400px;
+}
 
 .items h3 {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 .items .item--accion {
-    margin-left: 4px;
-    margin-right: 4px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.titulo {
+  line-height: 1.3;
+  align-items: last baseline;
+}
+
+.contenedor__100 {
+  width: 100%;
+  padding: 0 16px;
+}
+
+@media (min-width: 412px) {
+  .contenedor__100 {
+    max-width: 400px;
+  }
+}
+
+.titulo__seccion--txt {
+  width: calc(100vw - (54px + 8px + 32px)); 
+  height: 54px;
+  border-radius: 30px;
+  background: white;
+  box-shadow: 2px 4px 15px 0px rgba(0, 0, 0, 0.25);
+
+  text-align: left;
+  padding: 16px;
+}
+
+@media (min-width: 412px) {
+    .titulo__seccion--txt {
+        width: calc(400px - (54px + 8px + 32px));
+        height: 54px;
+    }
+}
+
+.info {
+    margin-bottom: 180px;
+    overflow: scroll;
+    
+}
+
+
+/* -- js -- */
+#importante {
+  display: flex;
+}
+
+#pasos {
+    display: none;
+}
+
+#tutorial {
+    display: none;
+}
+
+#recursero {
+    display: none;
+}
+
+.opasity {
+    opacity: 70%;
 }

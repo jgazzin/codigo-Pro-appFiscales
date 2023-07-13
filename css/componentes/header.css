@@ -1,8 +1,10 @@
 .contenedor__mobil {
-    margin: 24px 16px;
+    margin: 0 16px;
+    padding: 24px 0;
     display: flex;
     justify-content: center;
 }
+
 
 @media (min-width: 412px) {
     .contenedor__mobil {

@@ -86,6 +86,10 @@
     font-family: "gotham-round-regular";
     color: var(--color-textos);
   }
+
+  button {
+    cursor: pointer;
+  }
   
   .label-btn {
     font-family: "archivo-light";
